@@ -1,0 +1,22 @@
+{
+  "strict": true,
+  "smarttabs": true,
+  "curly": true,
+  "undef": true,
+  "unused": "vars",
+  "browser": true,
+  "jquery": true,
+  "sub": true,
+  "globals": {
+    "console": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "describe": true,
+    "expect": true,
+    "it": true,
+    "spyOn": true,
+    "inject": true,
+    "module": true,
+    "__indexOf": true
+  }
+}
