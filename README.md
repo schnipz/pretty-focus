@@ -10,6 +10,10 @@ Users on a touchpad, touch device or those with a mouse will never see the defau
 
 It's here to help improve accessibility for all users, as well as keep developers, designers and the client happy :)
 
+## Demo
+
+See a basic example of the results here: http://schnipz.github.io/pretty-focus/demo/
+
 ## Usage
 
 Include the `dist/pretty-focus.min.js` file at the end of your HTML `<body>` element, before the closing `</body>` tag.
@@ -25,3 +29,7 @@ Add the following CSS to your project where applicable to disable all focus styl
 ```
 
 NOTE: Update the CSS properties as required for your project and supported browsers.
+
+## License
+Licensed under the [MIT license](LICENSE).
+Copyright &copy; 2015 Mike Parsons
