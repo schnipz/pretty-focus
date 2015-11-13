@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pretty Focus</title>
+  <meta charset="utf-8" />
+  <style>
+
+    :focus {
+      outline: 2px solid blue;
+    }
+
+    .focus-disabled .disable-focus:focus {
+      outline: none;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>Pretty Focus</h1>
+
+  <p>Navigate around using various input devices and see the different focus states available.</p>
+
+  <h2>Browser Default</h2>
+  <button type="button">Normal Button</button>
+  <p>This is a <a href="#">normal link</a></p>
+
+  <h2>Module Activated</h2>
+  <button type="button" class="disable-focus">Pretty Focus Button</button>
+  <p>This is a <a href="#" class="disable-focus">Pretty Focus link</a></p>
+
+  <script src="../dist/pretty-focus.min.js"></script>
+
+</body>
+</html>
