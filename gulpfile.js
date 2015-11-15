@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var Server = require('karma').Server;
 var jscs = require('gulp-jscs');
 var jshint = require('gulp-jshint');
 var uglify = require('gulp-uglify');
@@ -28,8 +29,19 @@ gulp.task('scripts', function() {
     .pipe(gulp.dest('./dist/'));
 });
 
-gulp.task('develop', ['scripts'], function() {
-  gulp.watch(['./src/*.js'], ['scripts']);
+gulp.task('test', function(done) {
+  new Server({
+    configFile: __dirname + '/karma.conf.js',
+    singleRun: true
+  }, done).start();
 });
 
-gulp.task('build', ['scripts']);
+gulp.task('tdd', function(done) {
+  new Server({
+    configFile: __dirname + '/karma.conf.js'
+  }, done).start();
+});
+
+gulp.task('develop', ['scripts', 'test'], function() {
+  gulp.watch(['./src/*.js', './test/*.spec.js'], ['scripts', 'tdd']);
+});
