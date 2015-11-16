@@ -1,8 +1,8 @@
 # Pretty Focus
 
-Allow custom CSS :focus states for mouse/touch users while maintaining normal keyboard focus for accessibility.
+[![Dev Dependencies](https://david-dm.org/schnipz/pretty-focus/dev-status.svg)](https://david-dm.org/schnipz/pretty-focus#info=devDependencies)
 
-## Why?
+> Custom CSS focus states for mouse/touch users while maintaining normal keyboard focus for accessibility.
 
 This module is designed to provide a simple way for developers to maintain keyboard accessibility by *NOT* having to fully remove focus styles from all interactable elements in order to meet a design brief.
 
