@@ -1,3 +1,9 @@
+/**!
+ * pretty-focus - Allow custom CSS :focus states for mouse/touch users while maintaining normal keyboard focus for accessibility.
+ * @version v0.1.1
+ * Copyright (c) 2015 Mike Parsons
+ * @license MIT
+ */
 (function(element) {
   'use strict';
 
