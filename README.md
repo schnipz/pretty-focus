@@ -14,9 +14,13 @@ It's here to help improve accessibility for all users, as well as keep developer
 
 See a basic example of the results here: http://schnipz.github.io/pretty-focus/demo/
 
-## Usage
+## Setup
 
-Include the `dist/pretty-focus.min.js` file at the end of your HTML `<body>` element, before the closing `</body>` tag.
+**AngularJS** - Include the `dist/ng-pretty-focus.min.js` file in your app and add the `prettyFocus` module dependency.
+
+**Native** - Include the `dist/pretty-focus.min.js` file at the end of your HTML `<body>` element, before the closing `</body>` tag.
+
+## Usage
 
 A class of `focus-disabled` will be added to the `<body>` element whenever a pointer input is being activated.
 
