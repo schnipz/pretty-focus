@@ -16,13 +16,9 @@ See a basic example of the results here: http://schnipz.github.io/pretty-focus/d
 
 ## Setup
 
-### Angular
+**AngularJS** - Include the `dist/ng-pretty-focus.min.js` file in your app and add the `prettyFocus` module dependency.
 
-Include the `dist/ng-pretty-focus.min.js` file in your app and add the `prettyFocus` module dependency.
-
-### Native
-
-Include the `dist/pretty-focus.min.js` file at the end of your HTML `<body>` element, before the closing `</body>` tag.
+**Native** - Include the `dist/pretty-focus.min.js` file at the end of your HTML `<body>` element, before the closing `</body>` tag.
 
 ## Usage
 
