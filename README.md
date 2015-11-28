@@ -1,5 +1,6 @@
 # Pretty Focus
 
+[![Dependency Status](https://david-dm.org/schnipz/pretty-focus.svg)](https://david-dm.org/schnipz/pretty-focus)
 [![Dev Dependencies](https://david-dm.org/schnipz/pretty-focus/dev-status.svg)](https://david-dm.org/schnipz/pretty-focus#info=devDependencies)
 
 > Custom CSS focus states for mouse/touch users while maintaining normal keyboard focus for accessibility.
