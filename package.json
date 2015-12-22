@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/schnipz/restrict-focus-styles.git"
+    "url": "git+https://github.com/schnipz/pretty-focus.git"
   },
   "keywords": [
     "accessibility",
@@ -30,7 +30,10 @@
     "focus",
     "states",
     "angular",
-    "angularjs"
+    "angularjs",
+    "umd",
+    "amd",
+    "commonjs"
   ],
   "author": "Mike Parsons",
   "link": "mikeparsons.io",
