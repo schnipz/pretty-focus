@@ -1,6 +1,6 @@
 {
   "name": "pretty-focus",
-  "version": "0.1.4",
+  "version": "1.0.0-rc.1",
   "description": "Custom CSS focus states for mouse/touch users while maintaining normal keyboard focus for accessibility",
   "main": "gulpfile.js",
   "devDependencies": {
