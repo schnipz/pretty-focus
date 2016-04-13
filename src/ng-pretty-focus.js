@@ -73,8 +73,8 @@
     element.addEventListener('mousedown', interact);
     element.addEventListener('touchstart', interact);
     element.addEventListener('keydown', interact);
-    element.addEventListener('focusin', preFocus);
-    element.addEventListener('focusout', preBlur);
+    element.addEventListener('focus', preFocus, true);
+    element.addEventListener('blur', preBlur, true);
   });
 
 })(document.body);
