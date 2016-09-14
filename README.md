@@ -2,6 +2,7 @@
 
 [![Dependency Status](https://david-dm.org/schnipz/pretty-focus.svg)](https://david-dm.org/schnipz/pretty-focus)
 [![Dev Dependencies](https://david-dm.org/schnipz/pretty-focus/dev-status.svg)](https://david-dm.org/schnipz/pretty-focus#info=devDependencies)
+[![Bower version](https://badge.fury.io/bo/pretty-focus.svg)](https://badge.fury.io/bo/pretty-focus)
 
 > Custom CSS focus states for mouse/touch users while maintaining normal keyboard focus for accessibility.
 
@@ -16,6 +17,8 @@ It's here to help improve accessibility for all users, as well as keep developer
 See a basic example of the results here: http://schnipz.github.io/pretty-focus/demo/
 
 ## Setup
+
+**Bower** - The easiest way to get started is to install using `bower install pretty-focus` and then do one of the following:
 
 **UMD (AMD/CommonJS/Node)** - Include the `dist/pretty-focus.min.js` file in your app. Add the `prettyFocus` module dependency and run `prettyFocus.init()` on page load (or whenever required). See the demo source code for a more complete example.
 
@@ -37,4 +40,4 @@ NOTE: Update the CSS properties as required for your project and supported brows
 
 ## License
 Licensed under the [MIT license](LICENSE).
-Copyright &copy; 2015 Mike Parsons
+Copyright &copy; 2016 Mike Parsons
