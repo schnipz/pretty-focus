@@ -1,0 +1,40 @@
+{
+  "name": "pretty-focus",
+  "description": "Custom CSS focus states for mouse/touch users while maintaining normal keyboard focus for accessibility",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/schnipz/pretty-focus.git"
+  },
+  "authors": [
+    "Mike Parsons"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "accessibility",
+    "a11y",
+    "mouse",
+    "touch",
+    "keyboard",
+    "css",
+    "focus",
+    "states",
+    "angular",
+    "angularjs",
+    "umd",
+    "amd",
+    "commonjs"
+  ],
+  "homepage": "https://github.com/schnipz/pretty-focus",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

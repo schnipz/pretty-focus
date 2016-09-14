@@ -1,6 +1,6 @@
 {
   "name": "pretty-focus",
-  "version": "1.0.0-rc.2",
+  "version": "1.0.0",
   "description": "Custom CSS focus states for mouse/touch users while maintaining normal keyboard focus for accessibility",
   "main": "gulpfile.js",
   "devDependencies": {
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/schnipz/pretty-focus.git"
+    "url": "https://github.com/schnipz/pretty-focus.git"
   },
   "keywords": [
     "accessibility",
