@@ -18,7 +18,7 @@ See a basic example of the results here: http://schnipz.github.io/pretty-focus/d
 
 ## Setup
 
-**Bower** - The easiest way to get started is to install using `bower install pretty-focus` and then do one of the following:
+The easiest way to get started is to install using `bower install pretty-focus` and then do one of the following:
 
 **UMD (AMD/CommonJS/Node)** - Include the `dist/pretty-focus.min.js` file in your app. Add the `prettyFocus` module dependency and run `prettyFocus.init()` on page load (or whenever required). See the demo source code for a more complete example.
 
