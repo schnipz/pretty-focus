@@ -18,11 +18,9 @@ See a basic example of the results here: http://schnipz.github.io/pretty-focus/d
 
 ## Setup
 
-The easiest way to get started is to install using `bower install pretty-focus` and then do one of the following:
+The easiest way to get started is to install using `bower install pretty-focus` and then include the `dist/pretty-focus.min.js` file in your app. That's it.
 
-**UMD (AMD/CommonJS/Node)** - Include the `dist/pretty-focus.min.js` file in your app. Add the `prettyFocus` module dependency and run `prettyFocus.init()` on page load (or whenever required). See the demo source code for a more complete example.
-
-**AngularJS** - Include the `dist/ng-pretty-focus.min.js` file in your app and add the `prettyFocus` module dependency. Initialization will be triggered automatically on app `.run()`.
+**AngularJS** - There is an independent module for use in AngularJS if needed. Install with Bower, include the `dist/ng-pretty-focus.min.js` file in your app and add the `prettyFocus` module dependency. Initialization will be triggered automatically on app `.run()`.
 
 ## Usage
 
